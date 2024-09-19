@@ -1,0 +1,19 @@
+dependencies
+express
+mongoose
+env
+nodemon
+jwt token
+bcryptjs
+
+connection to db
+
+api creation
+models
+     vendor(username,email,password)
+     firm:firmName,area,category,region,offer,image
+     images by using multer package
+     product:(dishes in the restaurant)
+    (productName,price,category,image,bestseller,description)
+controllers
+routers
