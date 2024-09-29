@@ -4,10 +4,12 @@ const mongoose = require("mongoose");
 const venderRoutes = require("./routes/vendorRoutes");
 const productRoutes = require("./routes/productRoutes");
 const path = require("path");
+const cors = require("cors");
 
 const bodyParser = require("body-parser");
 const firmRoutes = require("./routes/firmRoutes");
 const app = express();
+app.use(cors());
 const PORT = process.env.PORT || 4000;
 dotEnv.config();
 
